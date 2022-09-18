@@ -38,6 +38,7 @@ $$
 将层次聚类得到的中心点最为keams聚类的初始中心点。聚类订单时当最近类容量已满则加入次近类，依次类推。
 
 ## 聚类结果可视化
-
+![聚类结果可视化](https://github.com/junbuer/OrderCluster/blob/main/ClusteringFigs/2019114_cluster_7_0%E6%89%80%E6%9C%89%E8%81%9A%E7%B1%BB%E7%BB%93%E6%9E%9C.png?raw=true)
+![单一类](https://github.com/junbuer/OrderCluster/blob/main/ClusteringFigs/2019114_cluster_7_0%E5%8D%95%E4%B8%80%E7%B1%BB%E7%BB%93%E6%9E%9C.png?raw=true)
 
 ### PS：`python OrderCluster`
