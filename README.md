@@ -10,10 +10,10 @@ Taxi orders cluster based on shared index
 共享指数针对任意两个行程$i、j$间可共享程度建立:
 
 $$
-shared\_index[i,j] = min(share\_dis[i, j], seq\_dis[i, j]) - dire\_dis[i, j]
+SharedIndex[i,j] = min(SharedDis[i, j], SeqDis[i, j]) - DireDis[i, j]
 $$
 
-其中$share\_dis$为最短合乘路程，$seq\_dis$为顺序服务最短路程，$dire\_dis$是单独服务路程等于$dis[i, i+n] + dis[j, j+n]$ 
+其中$SharedDis$为最短合乘路程，$SeqDis为顺序服务最短路程，$DireDis$是单独服务路程等于$dis[i, i+n] + dis[j, j+n]$ 
 
 ## 多维标度法
 根据订单相似度即共享指数，使用多维标度法反推坐标
